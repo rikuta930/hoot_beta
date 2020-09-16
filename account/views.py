@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def signin(request):
     return HttpResponse('Hello world')
+
+
+def register(request):
+    return HttpResponse('Hello world')
