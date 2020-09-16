@@ -8,5 +8,5 @@ def signin(request):
     return HttpResponse('Hello world')
 
 
-def register(request):
+def signup(request):
     return HttpResponse('Hello world')
