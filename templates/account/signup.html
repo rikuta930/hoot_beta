@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
-  <link rel="stylesheet" href="./css/reboot.min.css">
-  <link rel="stylesheet" href="./css/signup.css">
+    {% load static %}
+  <link rel="stylesheet" href="{% static 'account/css/signin.css' %}">
+  <link rel="stylesheet" href="{% static 'account/css/signin.css"' %}">
 </head>
 <body>
   <div class="global-container">
     <header class="header">
-      <img src="./icon/hoot_logo.svg" alt="hoot img" class="header__logo">
+      <img src="{% static 'account/icon/hoot_logo.svg' %}" alt="hoot img" class="header__logo">
       <!-- <img src="./icon/search.png" alt="search img" class="header__search"> -->
       <!-- <a href="#" class="header__signout">ログアウト</a> -->
     </header>
